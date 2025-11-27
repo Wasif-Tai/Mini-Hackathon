@@ -118,9 +118,10 @@
     position: relative;
     width: 100%;
     margin-top: -120px;
-    background: linear-gradient(to bottom, #77429a1a 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #77429a34 0%, #ffffff 100%);
     .grid-bg img {
       width: 100%;
+      height: auto;
       display: block;
       margin-top: 0;
       position: relative;
@@ -235,6 +236,7 @@
     margin-bottom: 100px;
   }
 
+
   /* Stack Section Starts Here */
   .stack-section {
     background-image: url(../assets/stack-section.png);
@@ -285,20 +287,19 @@
     margin-top: 148px;
   }
 
-  
   .smart-h1 {
-   font-size: 30px;
-   text-align: center;
+    font-size: 30px;
+    text-align: center;
   }
 
   .smart-h1 h1 {
     font-weight: 500;
     line-height: -2%;
-    color: #161C52;
+    color: #161c52;
   }
 
   .italic-font {
-      font-family: "Instrument Serif", serif;
+    font-family: "Instrument Serif", serif;
     font-style: italic;
     font-weight: 600;
     letter-spacing: 1px;
@@ -306,10 +307,10 @@
   }
 
   .smart-para {
-max-width: 600px;
-font-size: 16px;
-color: #484A61;
-text-align: center;
+    max-width: 600px;
+    font-size: 16px;
+    color: #484a61;
+    text-align: center;
   }
 
   .smart-para p {
@@ -323,16 +324,17 @@ text-align: center;
     justify-content: center;
     align-items: center;
     gap: 16px;
-    margin-bottom: 48px;
+    margin-bottom: 38px;
   }
-  
+
   .three-cards-df {
     display: flex;
     justify-content: center;
     align-items: start;
     gap: 16px;
-    margin-bottom: 100px;
+    margin-bottom: 64px;
     width: fit-content;
+    scale: calc(0.9);
   }
 
   .card-one {
@@ -362,7 +364,7 @@ text-align: center;
     font-size: 22px;
     font-weight: 600;
   }
-  
+
   .card-one-txt p {
     font-size: 16px;
     font-weight: 400;
@@ -372,7 +374,7 @@ text-align: center;
   .card-vertical {
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 64px;
     justify-content: center;
     align-items: center;
     margin-left: auto;
@@ -383,7 +385,12 @@ text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 64px;
+    gap: 88px;
+    margin-bottom: 120px;
+  }
+
+  .fourth-Card img {
+    height: 600px;
   }
 
   .image-four img {
@@ -403,7 +410,7 @@ text-align: center;
     font-size: 44px;
     font-weight: 500;
     width: 400px;
-    color: #161C52;
+    color: #161c52;
   }
   .section-italic {
     font-family: "Instrument Serif", serif;
@@ -417,7 +424,7 @@ text-align: center;
     font-size: 16px;
     width: 500px;
     line-height: 25px;
-    color: #484A61;
+    color: #484a61;
     font-weight: 400;
   }
 
@@ -425,20 +432,62 @@ text-align: center;
     display: flex;
     flex-direction: column;
     width: fit-content;
-  }
-  
-  .point-one, .point-two, .point-three {
-    width: fit-content;
-    display: flex;
+    gap: 24px;
   }
 
+  .point-one,
+  .point-two,
+  .point-three {
+    width: fit-content;
+    display: flex;
+    gap: 16px;
+  }
+
+  .point-one img,
+  .point-two img,
+  .point-three img {
+    width: 46px;
+    height: 46px;
+  }
+
+  .point-one h1,
+  .point-two h1,
+  .point-three h1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+
+  .point-one p,
+  .point-two p,
+  .point-three p {
+    font-size: 16px;
+    color: #484a61;
+  }
   .right-side {
     display: flex;
     flex-direction: column;
-    gap: 36px
-    ;
+    gap: 36px;
+    margin-top: -24px;
   }
+
+  /* Functionality Section Starts Here */
+  .functionalities-sct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #77429a;
+    margin: 0px 00px 0px 0px;
+    padding: 84px 0px;
   }
-  
-  
-  
+
+  .functionality-heading {
+    text-align: center;
+  }
+
+  .functionality-heading h1 {
+    font-size: 40px;
+    font-weight: 500;
+    max-width: 740px;
+  }
+}
