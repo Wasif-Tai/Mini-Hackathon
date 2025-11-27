@@ -331,6 +331,8 @@ text-align: center;
     justify-content: center;
     align-items: start;
     gap: 16px;
+    margin-bottom: 100px;
+    width: fit-content;
   }
 
   .card-one {
@@ -365,6 +367,76 @@ text-align: center;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+  }
+
+  .card-vertical {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .fourth-Card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+  }
+
+  .image-four img {
+    width: 500px;
+    height: auto;
+  }
+
+  .heading-and-para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    gap: 12px;
+  }
+
+  .heading-and-para h1 {
+    font-size: 44px;
+    font-weight: 500;
+    width: 400px;
+    color: #161C52;
+  }
+  .section-italic {
+    font-family: "Instrument Serif", serif;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #77429a;
+  }
+
+  .heading-and-para p {
+    font-size: 16px;
+    width: 500px;
+    line-height: 25px;
+    color: #484A61;
+    font-weight: 400;
+  }
+
+  .bullet-points {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+  }
+  
+  .point-one, .point-two, .point-three {
+    width: fit-content;
+    display: flex;
+  }
+
+  .right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 36px
+    ;
   }
   }
   
