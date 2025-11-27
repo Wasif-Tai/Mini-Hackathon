@@ -273,6 +273,100 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: -500px;
+    margin-bottom: -420px;
   }
-}
+
+  /* Smart Advantage Section Starts Here */
+  .smart-adv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 148px;
+  }
+
+  
+  .smart-h1 {
+   font-size: 30px;
+   text-align: center;
+  }
+
+  .smart-h1 h1 {
+    font-weight: 500;
+    line-height: -2%;
+    color: #161C52;
+  }
+
+  .italic-font {
+      font-family: "Instrument Serif", serif;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #77429a;
+  }
+
+  .smart-para {
+max-width: 600px;
+font-size: 16px;
+color: #484A61;
+text-align: center;
+  }
+
+  .smart-para p {
+    font-weight: 400;
+    line-height: 140%;
+  }
+
+  .heading-smart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 48px;
+  }
+  
+  .three-cards-df {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 16px;
+  }
+
+  .card-one {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    scale: calc(1);
+  }
+
+  .img-one img {
+    width: 400px;
+    height: auto;
+  }
+
+  .card-one-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .card-one-txt h1 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .card-one-txt p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+  }
+  }
+  
+  
+  
