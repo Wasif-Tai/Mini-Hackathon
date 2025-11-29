@@ -1257,6 +1257,8 @@
   /* Header Starts Here */
   .navbar {
     width: 1430px;
+    margin-left: auto;
+    margin-right: auto;
     position: fixed;
     z-index: 1000;
   }
